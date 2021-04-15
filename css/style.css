@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Open+Sans&display=swap');
+body{
+    font-family: 'Source Sans Pro',
+    sans-serif;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 80px;
+}
+#fastSection{
+background-color: #33cde8;
+padding: 30px;
+text-align: center;
+}
+h4,p { 
+font-family: 'Arvo',
+serif;
+font-weight: 600;
+}
+p{
+    font-size: 15px;
+}
+.img-thum img{
+    border-radius: 50%;
+    padding: 5px;
+    display: inline-block;
+    width: inherit !important;
+    margin: auto;
+}
+h4{
+    color: #333;
+}
+.items {
+    background-color: #fff;
+    color: rgb(100, 93, 93);
+    padding: 10px;
+}
+i{
+    color: #33cde8;
+}
+.owl-theme .owl-dots .owl-dot span{
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+    
+    background-color: #33cde8;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #33cde8;
+}
+#h3Margin{
+    margin-top:-15px;
+}
+.owl-carousel .owl-dot{
+    outline: none;
+}
